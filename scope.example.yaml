@@ -1,0 +1,19 @@
+# scope.yaml — PÉRIMÈTRE AUTORISÉ
+# Copie ce fichier en scope.yaml et mets-y UNIQUEMENT les cibles que le sujet
+# t'autorise à attaquer. Le bot refuse tout ce qui n'est pas listé ici.
+
+# Noms d'hôtes / domaines autorisés (correspondance exacte)
+hosts:
+  - lab.local
+  - target.ecole.lan
+
+# Réseaux autorisés (IP seule ou CIDR)
+networks:
+  - 192.168.56.0/24      # réseau host-only VirtualBox typique d'un lab
+  - 10.0.2.15            # une IP précise
+
+# Ports autorisés ; laisse vide pour autoriser tous les ports
+allowed_ports: []
+
+# DoS / flood : laissé à false, et le framework ne fournit pas d'outil de DoS.
+allow_dos: false

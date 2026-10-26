@@ -1,0 +1,5 @@
+hosts:
+  - scanme.nmap.org
+networks: []
+allowed_ports: []
+allow_dos: false

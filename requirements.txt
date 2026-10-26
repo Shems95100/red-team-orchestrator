@@ -1,0 +1,3 @@
+PyYAML>=6.0
+fpdf2>=2.7    # export PDF du rapport (optionnel mais recommandé)
+pytest>=7.0   # pour lancer les tests (dev)

@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Sorties de mission
+rapport.*
+*.log
+
+# Divers
+.DS_Store
+
+# NB : scope.yaml est fourni avec scanme.nmap.org (cible de test légale de Nmap).
+# Si tu y mets un jour un VRAI périmètre de mission, ne le committe pas.

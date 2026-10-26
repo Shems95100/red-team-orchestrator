@@ -1,0 +1,6 @@
+# Perimetre autorise : scanme.nmap.org est la cible officielle de test de Nmap,
+# que le projet Nmap autorise explicitement a scanner pour s'entrainer.
+hosts:
+  - scanme.nmap.org
+# allowed_ports vide = tous les ports (on laisse le bot cartographier librement)
+allowed_ports: []
